@@ -5,7 +5,7 @@ import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'LiveKit Meet | Conference app build with LiveKit open source',
+    default: 'Migv',
     template: '%s',
   },
   description:
@@ -16,21 +16,21 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
   },
   openGraph: {
-    url: 'https://meet.livekit.io',
+    url: '',
     images: [
       {
-        url: 'https://meet.livekit.io/images/livekit-meet-open-graph.png',
+        url: '',
         width: 2000,
         height: 1000,
-        type: 'image/png',
+        type: '',
       },
     ],
-    siteName: 'LiveKit Meet',
+    siteName: 'migv',
   },
   icons: {
     icon: {
       rel: 'icon',
-      url: '/favicon.ico',
+      url: '/',
     },
     apple: [
       {
