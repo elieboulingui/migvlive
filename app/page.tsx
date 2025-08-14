@@ -9,8 +9,7 @@ export default function HomePage() {
       window.close(); // Essaie de fermer la fenêtre
     } else {
       // Si la page a été ouverte directement, redirige vers une autre page
-      window.location.href = '/dashboard'; // Redirige immédiatement vers une autre page
-    }
+ window.close();    }
   }, []);
 
   return null; // Aucun contenu à afficher
